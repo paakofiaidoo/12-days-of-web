@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 250ms linear;
+}
+
+.circle {
+  margin: auto;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: red;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.level-1 {
+  padding: 1rem;
+  background-color: orangered;
+}
+.level-2 {
+  padding: 1.5rem;
+  background-color: orange;
+}
+.level-3 {
+  padding: 2rem;
+  background-color: yellow;
+}
